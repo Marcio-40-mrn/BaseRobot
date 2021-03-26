@@ -58,3 +58,9 @@ Então a página deve exibir a mensagem "${MENSAGEM}"
     Title Should Be                         Search - My Store
     Capture Page Screenshot                 Pagina_Busca.png
     Element Should Contain                  xpath=//p[@class='alert alert-warning']         ${MENSAGEM}
+    
+Geral keywords
+    Log
+    Run Keyword If          Roda keyword se condição verdadeira
+    Run Keyword Unless      Roda keyword se condição falsa
+    Set Variables If        Adiciona a variavel se condição for verdadeira
